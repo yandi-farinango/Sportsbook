@@ -1,3 +1,4 @@
+from multiprocessing.pool import ApplyResult
 from psaw import PushshiftAPI
 import datetime
 
@@ -12,3 +13,6 @@ submissions = list(api.search_submissions(after=start_time,
 
 for submission in submissions:
     print(submission.title)
+    apple 
+
+    
